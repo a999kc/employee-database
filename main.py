@@ -144,7 +144,7 @@ def main():
             end_time = time.time()
             print(f"Время выполнения после оптимизации: {end_time - start_time:.4f} секунд")
 
-            db.close()  # Закрываем соединение после оптимизации
+            db.close() 
 
 if __name__ == "__main__":
     main()
